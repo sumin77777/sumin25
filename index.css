@@ -351,22 +351,10 @@ circle {
     flex-direction: column;
   }
 
-  .v-line {
-    display: none;
-  }
-
   .timetxt {
     gap: 1rem;
   }
 
-  .timedot1,
-  .timedot2,
-  .timedot3,
-  .timedot4,
-  .dot {
-    position: static;
-    margin-bottom: 1rem;
-  }
 }
 
 /* For screen sizes up to 600px (Large Phones) */
@@ -455,5 +443,17 @@ circle {
   .bg-text-wrap2 {
     font-size: 2vw;
     letter-spacing: 0.5vw;
+  }
+
+  .v-line {
+    display: none;
+  }
+  
+  .timedot1,
+  .timedot2,
+  .timedot3,
+  .timedot4,
+  .dot {
+   display:none;
   }
 }
