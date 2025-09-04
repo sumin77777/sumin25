@@ -376,6 +376,9 @@ circle {
     font-size: 20px;
   }
 
+  .emtybox {
+  height: 15vh;
+}
   .qmark {
     width: 50vw;
   }
