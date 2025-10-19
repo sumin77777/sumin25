@@ -302,9 +302,7 @@ circle {
   display: flex;
 }
 
-/* --- Media Queries for Responsiveness --- */
 
-/* For screen sizes up to 1200px (Laptops) */
 @media (max-width: 1200px) {
   .title {
     font-size: 100px;
@@ -327,7 +325,6 @@ circle {
   }
 }
 
-/* For screen sizes up to 900px (Tablets) */
 @media (max-width: 900px) {
   .container,
   .panel {
@@ -357,7 +354,6 @@ circle {
 
 }
 
-/* For screen sizes up to 600px (Large Phones) */
 @media (max-width: 600px) {
   .container {
     padding: 1.5rem;
@@ -419,7 +415,6 @@ circle {
   }
 }
 
-/* For screen sizes up to 450px (Small Phones) */
 @media (max-width: 450px) {
   .container {
     padding: 1rem;
@@ -458,5 +453,9 @@ circle {
   .timedot4,
   .dot {
    display:none;
+  }
+  
+  .panel > a{
+    font-size:85%;
   }
 }
